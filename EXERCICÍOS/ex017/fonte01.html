@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+        body {
+            font-family: 'Abril Fatface', cursive;
+            font-weight: lighter;
+        }
+        /*
+        Medidas absolutas:
+        (cm, mm, in, px, pt, pc)
+
+        px: é aconselhável porém pode variar a altura conforme o tipo de px utilizado em algumas telas
+
+        Medidas relativas:
+        (em, ex, rem,vw,vh,%)
+        em: o mais aconselhável, pois ele é a porcertagem do tamanho padrão
+
+        PS= não se dá espaço entre a unidade e a unidade de medida, ou seja, 1cm não 1 cm
+        */
+        h1, h2 {
+            font-family: 'Pacifico', cursive;
+            font-weight: lighter;
+            /*
+            shorthand font
+            ordem: font style -> font- weigth -> font-size -> font-family
+
+            ex:. 
+
+                font-family: 'work sans, sans-serif';
+                font weigth: bolder;
+                font size: 3em
+                font style: italic
+
+            font: italic bolder 3em 'work sans, sans-serif'
+            */
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Título incrível</h1>
+    <h2>Subtítulo do titulo incrível</h2>
+
+    <h3>Olha um subtítulo do subtítulo incrível</h3>
+    <h4>Só mais um sub hehe</h4>
+    <p>Texto estilosos Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque praesentium esse velit ex dignissimos itaque cupiditate, eligendi sequi repellat saepe dolores quaerat iste unde! Maiores sunt facilis reprehenderit quod rerum.</p>
+    
+</body>
+</html>

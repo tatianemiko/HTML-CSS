@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: pink;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px 25px 10px 50px;
+            margin: 10px;
+            
+        }
+
+        main {
+            background-color: white;
+            padding: 10px 25px 10px 50px;
+            margin: 10px;
+            border-radius: 20px 40px;
+           
+
+        }
+
+        aside {
+            background-color: pink;
+            margin: 5px;
+        }
+
+        footer {
+            background-color: rgb(104, 77, 81);
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        ul {
+            background-color: pink;
+            font-weight: bolder;
+            text-decoration: none;
+            color: #bd2c74;
+        }
+        li {
+            font-weight: bolder;
+            text-decoration: none;
+            color: #b31865;
+        }
+
+        li > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+
+        li:hover {
+            color: blue
+        }
+
+        p#legenda {
+            text-justify: center;
+            color: #bd2c74;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Noticías inúteis e autais sobre mim.</h1>
+        <p id="legenda">By Tati. 01/11/2022 19h</p>
+    </header>
+
+    <main>
+
+        <section id="musicas">
+            <article>
+                <h2>Músicas mais ouvidas do momento:</h2>
+                <ul>
+                    <li> <a href="https://www.youtube.com/watch?v=b1kbLwvqugk" target="_blank" rel="external">Anti-hero</a> - Taylor Swift</li>
+                    <li> <a href="https://www.youtube.com/watch?v=Odh9ddPUkEY" target="_blank" rel="external">Midnigth rain</a> - Taylor Swift</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="hobbies"> 
+            <article>
+                <h2>Livros e hobbies</h2>
+                <p>
+                    Ultimamente quero ler mais livros, pedi alguns para Vicky.
+                    Atualmente estoou lendo  - Os Sete Maridos de Evelyn Hugo - estou gostando, porém enrrolando demais para ler, para ser sincera não sei onde "guardei" ele hehe...
+                </p>
+                <faside>
+                    Qual será o próximo livro?
+                </aside>
+            </article>
+
+            <article>
+                <p>Não pinto nada faz mil anos, não estou inspirada/ não vejo mjuito sentido nas coisas que faço (não que eu ache que tudo tem que ter significado e blábláblá).
+                </p>
+                <aside>
+                    Tenho encomendas de dois dogs para essa semana hehe Feliz :)
+                </aside>
+            </article>
+        </section>
+    </main>
+     <footer>
+            Até mais, espero melhorar no CSS ;)
+        </footer>
+    
+</body>
+</html>

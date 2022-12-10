@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    background-color: aquamarine;
+    text-align: justify;
+    margin: auto;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: idroid;
+    color: #1a5c38;
+    text-align: left;
+}
+
+h2.subtitulo {
+    font-family: idroid;
+    color: #1a5c38;
+    font-size: medium;
+    text-align: left;
+}
+
+h2.destaque {
+    background-image: linear-gradient(to right,#3cd6818f, white);
+}
+
+h2.pergunta {
+    background-color: #1a5c38;
+    padding: 10px;
+
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+p.subtitulo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: normal;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3cd681, #1a5c38);
+    padding: 10px 10px 0px 10px;   
+   
+}
+
+div {
+    padding: 5px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+div.nomes {
+    text-align: left;
+    color: black;
+    padding: 9px 88px 20px 6px;
+}
+
+div:hover {
+    background-color: #3cd681;
+}
+
+main {
+    background-color: white;
+    border: 50px;
+    padding: 10px 20px 20px 20px;
+    margin: 0px 80px 80px 80px;
+}
+
+main.video {
+    background-color: green;
+    border: 0px;
+    margin: 0px 80px 80px 80px;
+    padding: 0px;
+}
+
+
+article.listas {
+    background-color: lightblue;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+}

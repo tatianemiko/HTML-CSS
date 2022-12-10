@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'magic' ;
+    src: url(fonts/Magic\ Retro.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dillan' ;
+    src: url(fonts/MADE\ Dillan\ PERSONAL\ USE.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+main {
+    
+}
+
+body {
+ background-image: linear-gradient(to left,rgba(212,151,106,1)10%, rgba(128, 66, 21,1));
+}
+
+h1 {
+    font-family: 'magic';
+    font-weight: lighter;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+h2 {
+    font-family: 'magic';
+    font-weight: lighter;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255);
+}
+
+h4{
+    font-family: 'dillan';
+    font-weight: lighter;
+    color: white;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    color:  rgba(128, 66, 21,1);
+}
+li {
+    font-family: 'Courier New', Courier, monospace;
+    color:rgba(212,151,106,1);
+}
