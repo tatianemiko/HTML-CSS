@@ -31,7 +31,7 @@ html, body {
 }
 
 header {
-    background-color: black;
+    background-color:#77a2b3;
     color: white;
     text-align: center; 
 } 
@@ -69,6 +69,10 @@ section {
 
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 article {
     font-family: var(--fonte2);
     font-weight: lighter;
@@ -83,6 +87,23 @@ section.normal {
 section.imagem {
     background-color: rgb(59, 53, 53);
     color: white;
+    box-shadow: inset 5px 5px 15px 0px rgba(0, 0, 0, 0.329);
+}
+
+section#img1 {
+    background-image: url('../imagens/harry003.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  
+}
+
+section#img2 {
+    background-image: url('../imagens/harry002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
 }
 
 section.imagem > p, article {
