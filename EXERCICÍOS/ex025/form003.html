@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Lançamento de notas</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required="complete" maxlength="30" placeholder="Nome completo" size="10">
+        </p>
+        <p>
+            <label for="isen">Senha</label>
+            <input type="password" name="sen" id="isen" required="complete" size="8">
+        </p>
+        <p>
+            <label for="imedia">Média do aluno</label>
+            <input type="number" name="media" id="imedia" placeholder="nota de 0 a 10" required="complete" min="0" max="10" step="0.5">
+        </p>
+        <p>
+            <label for="imes">Periodo letivo</label>
+            <input type="month" name="mes" id="imes" value="2023-01">
+        </p>
+        <p>
+            <label for="idata">Data da prova</label>
+            <input type="date" name="data" id="idata" value="2023-01-23">
+        </p>
+        <p>
+            <label for="ihora">Horário da Prova</label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
