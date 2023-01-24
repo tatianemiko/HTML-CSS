@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando formulário de checkbox e radio</title>
+</head>
+<body>
+    <h1>Selecione as opções abaixo</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isfem"> <label for="isfem"> Feminino</label>
+            <input type="radio" name="sexo" id="ismas"> <label for="ismas"> Maculino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Espotes favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut"> Futebol</label><br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas"> Basquete</label><br>
+            <input type="checkbox" name="esvol" id="iesvol"> <label for="iesvol"> Volei</label><br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat"> Natação</label><br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten"> Tênis</label><br>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

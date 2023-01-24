@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando formulário de telefone</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(240, 128, 128, 0.349);
+        }
+    </style>
+</head>
+<body>
+    <h1>Testes de formulário para número de telefone e email</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome"id="inome" required placeholder="nome completo" maxlength="30" minlength="10">
+            </p>
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" required placeholder="email@xxxx.com">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" placeholder="(xx)xxxxx-xxxx">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
+    
+    <h3>Anotações:</h3>
+    <p>
+        Mesmo com o input email usando a tag required, não existe uma verificação se o email existe ou não, ele apenas verifica se há o simbolo de @. Validações são feitas de forma mais efetiva pelo JS e PHP<br>
+        Importante estuda mais dobre RegEx (Expressões regulares)
+    </p>
+</body>
+</html>

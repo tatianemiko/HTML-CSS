@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Formulário de cor, file e rage (satisfação)</title>
+</head>
+<body>
+    <h1>Testando formulário</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Infos</legend>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="cor" id="icor" value="#00ff00">
+            </p>
+            <p>
+                <label for="isas">Nível de satisfação:</label>
+                <input type="range" name="sas" id="isas" min="1" max="5"> 
+            </p>
+            <p>
+                <label for="ifile">Escolha um arquivo</label>
+                <input type="file" name="file" id="ifile"> <br>
+                ~ <strong>Anotação</strong>: Quando se usa o file, o method tem que ser post e não get ~
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
