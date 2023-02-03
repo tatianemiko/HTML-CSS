@@ -39,10 +39,13 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.247);
 
     transition: width .3s height .3s;
     transition-timing-function: ease ;
 }
+
+
 
 section#login > div#imagem {
     display: block;
@@ -55,3 +58,4 @@ section#login > div#formulario {
     display: block;
     padding: 15px;
 }
+

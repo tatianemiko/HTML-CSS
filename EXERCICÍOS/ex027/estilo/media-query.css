@@ -26,7 +26,7 @@ Types Device Breakpoints
     }
 }
 
-@media screen and (min-width: 922px) and (max-width: 1200px) {
+@media screen and (min-width: 922px)  {
     section#login {
         width: 90vw;
     }
