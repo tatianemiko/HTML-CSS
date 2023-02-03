@@ -46,3 +46,7 @@ section#login > div#imagem {
     background-size: cover;
     height: 200px;
 }
+
+section#login > div#formulario {
+    padding: 15px;
+}
