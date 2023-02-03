@@ -41,6 +41,26 @@ Types Device Breakpoints
         float: right;
         width: 30%;
         padding: 30px;
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+
+    div.campo > input {
+        background-color: #c7d4ab;
+        font-size: 1em;
+        text-align: center;
+        width:calc(100% - 50px);
+        height: 100%;
+        
+        border: none;
+        border-radius: 5px;
+        transform: translateY(-10px);
+    }
+
+    div.campo > span {
+        color: white;
+        font-size: 2em;
+        width: 35px;
+        height: 35px;
+        
     }
 }
