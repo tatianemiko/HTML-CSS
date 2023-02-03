@@ -16,7 +16,7 @@ verde 2: #B8E468
 }
 
 body, html {
-    background-image: url(../imagens/tecido2.jpg);background-color:#ABBF60;
+    background-image: url(../imagens/tecido2.jpg);background-color:#c4d38d;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -35,18 +35,23 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
 
-    background-color:#e9dfb5;
+    background-color:#bbc98a;
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width .3s height .3s;
+    transition-timing-function: ease ;
 }
 
 section#login > div#imagem {
+    display: block;
     background-image: url(../imagens/flores3.jpg);
     background-size: cover;
     height: 200px;
 }
 
 section#login > div#formulario {
+    display: block;
     padding: 15px;
 }
