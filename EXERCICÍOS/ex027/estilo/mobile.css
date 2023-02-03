@@ -1,45 +1,48 @@
 @charset "UTF-8";
 
-/* Mobile first */
+/* Mobile first 
+
+CORES 
+bege: #E4E4B4
+verde: #ABBF60
+verde 2: #B8E468 
+*/
 
 * {
-    margin: 0px;
-    padding: 0px;
-
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 body, html {
-    background-image: url(../imagens/tecido2.jpg);
+    background-image: url(../imagens/tecido2.jpg);background-color:#ABBF60;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
 
 main {
-    background-color: blanchedalmond;
-    margin: auto;
-    width: 80vw;
-    height: 70vh;
-    border-radius: 20px;
-    
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
 
+section#login {
     position: absolute;
-    left: 50%;
     top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color:#e9dfb5;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
 }
 
-section#loguin > div#imagem {
-    display: block;
-    background-image: url(../imagens/flores2.jpg);
-    width: 80vw;
-    height: 25vh;
-    border-radius: 15px 15px 0px 0px;
-}
-
-section#loguin > div#formulario {
-    display: block;
-    
-}
-
-section#loguin > form > p > input {
-    background-color: blue;
+section#login > div#imagem {
+    background-image: url(../imagens/flores3.jpg);
+    background-size: cover;
+    height: 200px;
 }
